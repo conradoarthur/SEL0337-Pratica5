@@ -1,5 +1,5 @@
 [Unit]
-Description=SEL0337 - Monitor de conectividade
+Description=SEL0337 - Monitor de conectividade de rede
 Wants=network-online.target
 After=network-online.target
 
@@ -8,10 +8,13 @@ Type=simple
 User=sel
 WorkingDirectory=/home/sel/pratica5
 Environment=PING_ALVO=1.1.1.1
+
 ExecStart=/usr/bin/python3 /home/sel/pratica5/monitor_rede.py
 ExecStop=/home/sel/pratica5/parar_monitor.sh $MAINPID
+
 Restart=on-failure
 RestartSec=3
+TimeoutStopSec=10
 
 [Install]
 WantedBy=multi-user.target
