@@ -11,7 +11,7 @@ led_vermelho = LED(27)
 
 # Endereco testado e intervalo entre verificacoes
 ALVO = os.environ.get("PING_ALVO", "1.1.1.1")
-INTERVALO = 5
+INTERVALO = 2
 
 executando = True
 
