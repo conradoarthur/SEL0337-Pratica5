@@ -2,8 +2,11 @@
 # SEL0337 — Prática 5: Monitor de Conectividade de Rede
 
 Alunos: 
+
 Arthur Conrado Nunes Santos - 14668168
+
 Ulisses Lombardi Campos - 14781443
+
 
 ## 1. Objetivo
 
