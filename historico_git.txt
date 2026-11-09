@@ -1,0 +1,45 @@
+commit c90789b6ba832dd0b06728ab3b9a6afb585e82ae
+Author: Gabriel-Erico <gabriellacerda21@usp.br>
+Date:   Mon Nov 9 20:27:49 2026 +0000
+
+    Registra testes da prática 5
+
+commit 0bb8d7f9bcfdf4689f4e972611c2dd5754ff88ec
+Author: conradoarthur <conradoarthur20@gmail.com>
+Date:   Mon Nov 9 16:53:35 2026 -0300
+
+    Update README with student names
+    
+    Added student names to the README file.
+
+commit f5e2b3aacc9b2fd4e692cb3a2535a03dcf9cf412
+Author: conradoarthur <conradoarthur20@gmail.com>
+Date:   Mon Nov 9 16:53:02 2026 -0300
+
+    Update README with student information
+    
+    Added student names and IDs to the README.
+
+commit f2694d07fd0733935be396c689e3f757294cb1c2
+Author: Arthur Conrado <conradoarthur20@gmail.com>
+Date:   Mon Nov 9 16:03:40 2026 -0300
+
+    Ajusta configuracao do servico systemd
+
+commit fd335ec51a5e1ad6f09215384c9c5bebebcc7b2a
+Author: Arthur Conrado <conradoarthur20@gmail.com>
+Date:   Mon Nov 9 15:59:21 2026 -0300
+
+    Adiciona documentacao do monitor de conectividade
+
+commit 407c30b7a68af56463c52fc4deb9d2f3a756557a
+Author: conradoarthur <conradoarthur20@gmail.com>
+Date:   Mon Nov 9 15:45:29 2026 -0300
+
+    Add files via upload
+
+commit 2ed6082c1651e8c15fe306b5a64b3926086d4db5
+Author: conradoarthur <conradoarthur20@gmail.com>
+Date:   Mon Nov 9 15:42:45 2026 -0300
+
+    Initial commit
