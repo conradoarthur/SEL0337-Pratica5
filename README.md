@@ -139,7 +139,6 @@ git log > historico_git.txt
 
 ## 10. Conclusão
 
-
 A Prática 5 permitiu compreender o funcionamento do systemd no gerenciamento de aplicações em sistemas embarcados Linux. Por meio de um serviço personalizado, foi possível executar um programa Python de monitoramento de conectividade na Raspberry Pi, utilizando os LEDs como indicadores visuais.
 
 Os testes demonstraram o funcionamento da aplicação em condições de conectividade disponível e indisponível, incluindo a atualização automática dos indicadores após mudanças na rede.
