@@ -1,4 +1,4 @@
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/691e2d89-775b-46ec-9724-171d23e9beab" />
+
 # SEL0337 — Prática 5: Monitor de Conectividade de Rede
 
 Alunos: 
