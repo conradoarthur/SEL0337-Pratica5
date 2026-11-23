@@ -1,4 +1,4 @@
-
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/691e2d89-775b-46ec-9724-171d23e9beab" />
 # SEL0337 — Prática 5: Monitor de Conectividade de Rede
 
 Alunos: 
@@ -99,9 +99,33 @@ Os seguintes testes estão previstos para a execução em laboratório:
 
 ## 8. Resultados e evidências
 
-*Seção a ser preenchida após a execução da prática.*
+A aplicação foi testada em laboratório utilizando uma Raspberry Pi, dois LEDs e o serviço personalizado monitor_rede.service, gerenciado pelo systemd.
 
-Serão registrados os resultados observados, as fotografias da montagem e as capturas do terminal demonstrando a execução e o gerenciamento do serviço.
+Durante os testes, foi possível observar o comportamento do sistema em duas condições de conectividade:
+
+Conectividade disponível: o programa identificou respostas ao comando ping, mantendo o LED verde aceso e o vermelho apagado.
+
+Falha de conectividade: quando o endereço de teste deixou de responder, o programa apagou o LED verde e acendeu o vermelho.
+
+Após o restabelecimento da conectividade, o LED verde voltou a acender automaticamente, sem necessidade de reiniciar o programa.
+
+O comando systemctl status monitor_rede.service confirmou que o serviço estava em execução (active (running)) e habilitado para inicialização automática (enabled). As mensagens registradas no terminal também permitiram acompanhar as mudanças de estado da conexão.
+
+Evidências fotográficas
+
+Figura 1 — Falha de conectividade
+
+
+
+Montagem experimental com o LED vermelho aceso e registros de falha de conectividade no terminal da Raspberry Pi.
+
+Figura 2 — Conectividade disponível
+
+
+
+Montagem experimental com o LED verde aceso e registros de conectividade bem-sucedida, incluindo a recuperação após falhas.
+
+Esses resultados demonstram que o monitor conseguiu identificar alterações na conectividade e atualizar os LEDs automaticamente, enquanto o programa permanecia em execução como serviço do Linux.
 
 ## 9. Versionamento com Git
 
@@ -115,4 +139,11 @@ git log > historico_git.txt
 
 ## 10. Conclusão
 
-*Seção a ser preenchida após a validação do funcionamento da aplicação e da inicialização automática pelo systemd.*
+
+A Prática 5 permitiu compreender o funcionamento do systemd no gerenciamento de aplicações em sistemas embarcados Linux. Por meio de um serviço personalizado, foi possível executar um programa Python de monitoramento de conectividade na Raspberry Pi, utilizando os LEDs como indicadores visuais.
+
+Os testes demonstraram o funcionamento da aplicação em condições de conectividade disponível e indisponível, incluindo a atualização automática dos indicadores após mudanças na rede.
+
+Além disso, a utilização do arquivo .service permitiu configurar o gerenciamento e a inicialização automática da aplicação, enquanto o script de parada implementou uma rotina de encerramento controlado.
+
+A atividade mostrou como o systemd pode ser utilizado para manter aplicações embarcadas em funcionamento sem a necessidade de executá-las manualmente pelo terminal, além de reforçar a importância dos registros do sistema para acompanhar e verificar seu comportamento.
