@@ -115,13 +115,13 @@ Evidências fotográficas
 
 Figura 1 — Falha de conectividade
 
-
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/071b9344-4c6b-4733-b3d3-ecc21f10789d" />
 
 Montagem experimental com o LED vermelho aceso e registros de falha de conectividade no terminal da Raspberry Pi.
 
 Figura 2 — Conectividade disponível
 
-
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/9934ffa0-8a14-4333-9024-9c146ecc8bd3" />
 
 Montagem experimental com o LED verde aceso e registros de conectividade bem-sucedida, incluindo a recuperação após falhas.
 
